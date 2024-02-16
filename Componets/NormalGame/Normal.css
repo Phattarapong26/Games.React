@@ -1,0 +1,112 @@
+.ScreenN {
+    height: 932px;
+    width: 430px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url("./normal.png");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 30px;
+    color: black;
+  }
+  
+  .Header {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .Header button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .mainFeat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .HintS, .inputS, .resultS, .attempts {
+    margin-bottom: 10px;
+  }
+  
+  .HintS button, .inputS input, .resultS p, .attempts p {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .attempts {
+    font-weight: bold;
+  }
+  
+
+.large-buttons {
+  width: 6rem;
+  height: 2.5rem;
+  padding: 5px 5px; 
+  font-size: 15px;
+  border-radius: 9px;
+  background-color: rgb(255, 208, 0);
+}
+
+#Reset , #Back {
+  background-color: black;
+  color: #fff;
+}
+
+#guessInput {
+  border: 1px solid black;
+}
+.Pop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Pop h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.Pop p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.buttonPop {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.buttonPop-button {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  color: white;
+  text-decoration: none;
+}
+
+.buttonPop-btnText {
+  font-size: 1.1rem;
+  font-weight: bold;
+}

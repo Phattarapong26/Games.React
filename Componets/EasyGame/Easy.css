@@ -1,0 +1,134 @@
+.ScreenEs {
+  height: 932px;
+  width: 430px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-image: url("./easy.png");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 30px;
+  color: #000000;
+}
+
+.Headers {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Headers button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mainFeats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.HintS, .inputS, .resultS, .attempts {
+  margin-bottom: 10px;
+}
+
+.HintS button, .resultS p, .attempts p {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.attempts {
+  font-weight: bold;
+}
+
+.Pop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.Pop h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 4rem;
+}
+
+.Pop p {
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+.buttonPop {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 3rem;
+}
+.buttonPop button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin:0;
+  padding: 0px;
+  width: 130px;
+  height: 47px;
+  background-color: #000000;
+  color: #fff;
+}
+
+.large-button {
+  width: 6rem;
+  height: 2.5rem;
+  padding: 5px 5px; 
+  font-size: 15px;
+  border-radius: 9px;
+  background-color: rgb(255, 208, 0);
+}
+.attempts {
+  color: #fff;
+  background-color: black;
+  width: 12rem;
+  height: 3rem;
+  padding-bottom:1rem;
+  border-radius: 20px;
+}
+
+.inputS input {
+  width: 7rem;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+#gameOverModal {
+
+  width: 360px;
+  height: 343px;
+  margin-top: -14rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  color: #000000;
+  box-shadow: 100px 100px 100px 150px rgba(0, 0, 0, 0.5);
+}
+

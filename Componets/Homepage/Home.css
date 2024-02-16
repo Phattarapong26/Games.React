@@ -1,0 +1,64 @@
+.screens {
+  margin: 1rem;
+  border-radius: 30px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("./home.png");
+  height: 932px;
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sBUttonsH {
+  font-size: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  transform: translateX(-50%);
+  height: 71px;
+  width: 263px;
+  padding: 2rem;
+}
+
+.start-buttonH {
+  background-color: rgb(255, 179, 0);
+
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 20rem;
+  margin-top: 19rem;
+  padding-right: 170px;
+}
+
+.button-container {
+  margin-bottom: 1rem;
+}
+.start-button {
+  /* เพิ่ม margin-bottom ที่ต้องการ (เช่น 1rem) */
+  margin-bottom: 1rem;
+
+  color: white;
+  background-color: rgb(255, 179, 0);
+  height: 71px;
+  width: 263px;
+  border-radius: 30px;
+  font-size: 30px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
