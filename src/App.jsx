@@ -1,7 +1,7 @@
 
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import { HashRouter, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Easy from '../Componets/EasyGame/Easy';
