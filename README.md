@@ -1,7 +1,7 @@
 # Games.React
 ## เกมส์ 10 คำถาม
 
-**ผู้พัฒนา:** Phattarapong Phengtavee
+**ผู้พัฒนา:** Phattarapong Phengtavee 65041785
 
 ---
 
