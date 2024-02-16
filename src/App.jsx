@@ -11,7 +11,7 @@ import Start from '../Componets/StartGame/Start';
 
 function App() {
   return (
-    <HashRouter basename={'/Games.React'}>
+    <BrowserRouter basename={'/Games.React'}>
       <div className="App">
         <Routes>
           <Route exact path="/" element={<Navigate to="/start" replace />} />
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/start" element={<Start />} />
         </Routes>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
