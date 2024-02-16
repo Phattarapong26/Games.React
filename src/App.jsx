@@ -1,7 +1,7 @@
 
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Easy from '../Componets/EasyGame/Easy';
@@ -11,7 +11,7 @@ import Start from '../Componets/StartGame/Start';
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename={'/Games.React'}>
       <div className="App">
         <Routes>
           <Route exact path="/" element={<Navigate to="/start" replace />} />
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/start" element={<Start />} />
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
