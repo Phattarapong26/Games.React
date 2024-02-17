@@ -2,9 +2,9 @@ import react from '@vitejs/plugin-react';
 
 export default {
   plugins: [react()],
-  base: './',
+  base: '/Games.React/',
   build: {
-    outDir: 'docs',
+    outDir: 'build',
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {
