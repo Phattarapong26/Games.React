@@ -1,8 +1,18 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
-export default defineConfig({
+export default {
   plugins: [react()],
-  base : "/Games.React/"
-})
+  base: './',
+  build: {
+    outDir: 'docs',
+    rollupOptions: {
+      output: {
+        assetFileNames: (assetInfo) => {
+          return assetInfo.name === 'index.html' ? 'index.html' : `assets/${assetInfo.name}`;
+        },
+        chunkFileNames: `assets/[name]-[hash].js`,
+        entryFileNames: `assets/[name]-[hash].js`,
+      },
+    },
+  },
+};
